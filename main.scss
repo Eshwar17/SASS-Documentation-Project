@@ -1,6 +1,7 @@
 $main-color: #521751;
 $colors: (main: #521751, secondary: #fa923f);
 $border-default: 0.05rem solid $main-color;
+$size-default: 1rem;
 
 @import "typography.css";
 html {
@@ -24,7 +25,7 @@ body {
     wrap: nowrap;
   }
   align-items: center;
-  padding: 3rem 0;
+  padding: $size-default * 3 0;
   box-sizing: border-box;
 }
 
